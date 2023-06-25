@@ -1,0 +1,14 @@
+function culc(a, b, operation = "add") {
+    switch (operation) {
+      case "add":
+        return "3";
+      case "sub":
+        return "1";
+      case "multi":
+        return "2";
+    }
+  }
+  let a = "1";
+  let b = "2";
+  let operation = prompt("action");
+  alert(culc(a, b, operation));
